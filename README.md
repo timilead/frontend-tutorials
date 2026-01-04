@@ -27,5 +27,5 @@ This repository contains multiple frontend projects built for learning and teach
 
 ## 👨‍💻 Author
 **Timileyin Agunloye**  
-Frontend Developer & Instructor  
+Fullstack Developer & Instructor  
 GitHub: https://github.com/timilead
