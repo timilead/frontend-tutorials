@@ -8,8 +8,6 @@ This project is beginner-friendly and demonstrates how to work with browser spee
 
 ## 🚀 Features
 - Convert text into speech
-- Select different voices (if supported by the browser)
-- Adjustable speech rate and pitch
 - Clean and simple user interface
 - Works directly in the browser (no backend required)
 
@@ -30,5 +28,8 @@ text-to-speech/
 ├── style.css
 └── script.js
 
+---
+
 ## 🌎 Live demo
+https://timilead.github.io/frontend-tutorials/text-to-speech
 
