@@ -11,3 +11,6 @@ A simple character counter that updates as the user types.
 - DOM manipulation
 - Event listeners
 - Input events
+
+## Live demo 🌎
+https://timilead.github.io/frontend-tutorials/character-counter
