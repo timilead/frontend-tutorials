@@ -21,6 +21,11 @@ This project is beginner-friendly and demonstrates how to work with browser spee
   
 ---
 
+## 🌎 Live demo
+https://timilead.github.io/frontend-tutorials/text-to-speech
+
+---
+
 ## 📂 Project Structure
 ```text
 text-to-speech/
@@ -28,8 +33,4 @@ text-to-speech/
 ├── style.css
 └── script.js
 
----
-
-## 🌎 Live demo
-https://timilead.github.io/frontend-tutorials/text-to-speech
 
