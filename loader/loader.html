@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loader Project</title>
+  <style>
+    body{
+      height: 100vh;
+      display: flex;
+      background-color: black;
+      color: white;
+      align-items: center;
+      justify-content: center;
+    }
+    .card{
+      width: 190px;
+      height: 254px;
+      background: #261B29;
+      display: flex;
+      align-items: center;
+      border-radius: 10px;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .card h1{
+      font-size: 2em;
+      color: white;
+      z-index: 2;
+    }
+    .card::before{ 
+      content: "";
+      width: 120px;
+      height: 120%;
+      position: absolute;
+      background: linear-gradient(180deg, #02BBFF,#CA02FF);
+      animation: rotate 3s linear infinite;
+    }
+    @keyframes rotate{
+      from{
+        transform: rotate(0deg);
+      }
+      to{
+        transform: rotate(360deg);
+      }
+    }
+    .card::after{
+      content: "";
+      position: absolute;
+      inset: 5px;
+      background: #261B29;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Timi Tech</h1>
+  </div>
+</body>
+</html>
