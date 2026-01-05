@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebIDE Project</title>
+    <style>
+    
+    /** Note : adjust this code to fit your screen size ! **/
+    
+:root{
+    --background-color: darkblue;
+    --text-color: darkorange;
+}
 
+
+.header{
+    display: flex;
+    font-size: 2rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    color: var(--text-color);
+    margin-bottom: 70%;
+    padding: 20px 10px;
+    justify-content: space-between;
+    background-color: var(--background-color);
+}
+p{
+    font-size: 3rem;
+font-weight: bold;
+}
+textarea{
+    padding: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.speller-cont{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+    </style>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        Timi-Tech
+      </div>
+      <div class="toggle">
+        ☀️
+      </div>
+    </header>
+    <section class="speller-cont">
+      <div class="speller">
+        <p> Amount remain: <span id="display">50</span> limit number: <span id="counter">0</span></p>
+      </div>
+      <textarea id="input-area" maxlength="50" placeholder="Start Typing......"></textarea>
+    
+    </section>
+   
+  </body>
+</html>
+    <script>
+let limit = 50;
+let counter = document.getElementById("counter");
+let inputArea = document.getElementById("input-area");
+let remain = document.getElementById("display");
+let remains = remain.innerText;
+
+inputArea.oninput = () => {
+    let inputcount = inputArea.value.length;
+    
+
+    //console.log(inputcount);
+
+    if (inputcount <= limit) {
+        counter.innerText = inputcount;
+        remain.innerText = Number(remains - inputcount);
+    };
+}
+    </script>
+</body>
+</html>
