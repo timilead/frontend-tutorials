@@ -1,1 +1,34 @@
+# Text to Speech 🔊
+
+A simple Text-to-Speech web application that converts user-entered text into spoken audio using JavaScript.
+
+This project is beginner-friendly and demonstrates how to work with browser speech APIs.
+
+---
+
+## 🚀 Features
+- Convert text into speech
+- Select different voices (if supported by the browser)
+- Adjustable speech rate and pitch
+- Clean and simple user interface
+- Works directly in the browser (no backend required)
+
+---
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Web Speech API (SpeechSynthesis)
+  
+---
+
+## 📂 Project Structure
+```text
+text-to-speech/
+├── index.html
+├── style.css
+└── script.js
+
+## 🌎 Live demo
 
