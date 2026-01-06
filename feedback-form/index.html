@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SENDER</title>
+  
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 style="text-align: center;">FeedBack Form</h1>
+  <form class="myform"
+  <p id="validMessage"></p>
+  <div>
+  <li>
+    <label for="name">Name</label>
+    <input name="name" id="myname" type="text" placeholder="please enter your name" required></input>
+  </li>
+  
+  <li>
+    <label for="email">Email</label>
+    <input name="email" id="myemail" type="email" placeholder="please enter your email" required></input>
+  </li>
+  <li>
+    <label form="message">Message</label>
+      <textarea name="message" id="mymessage" cols="30" rows="10" placeholder="enter your text"></textarea>
+  </li>
+  </div>
+  <button id="submit" style="font-size: 20px; color: whitesmoke; ">
+    SEND NOW 
+  </button>
+  <p id="notValidMessage"></p>
+  </form>
+  <script src="main.js"></script>
+</body>
+</html>
