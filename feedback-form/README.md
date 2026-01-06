@@ -6,7 +6,7 @@ Users can submit feedback, and the app dynamically displays the selected respons
 ---
 
 ## 🌍 Live Demo
-🔗 https://timilead.github.io/frontend-tutorials/feedback/index.html
+🔗 https://timilead.github.io/frontend-tutorials/feedback-form/index.html
 
 ---
 
